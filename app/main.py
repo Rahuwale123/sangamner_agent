@@ -16,7 +16,7 @@ logger = logging.getLogger("sangamner")
 
 app = FastAPI(title="Sangamner AI Search Assistant", version="1.0.0")
 
-# CORS: allow local frontend during development
+# CORS: allow local frontend during deveopment
 settings = get_settings()
 if settings.app_env.lower() in {"dev", "development", "local"}:
     app.add_middleware(
