@@ -17,7 +17,7 @@ class Settings:
     """
 
     app_env: str = os.getenv("APP_ENV", "development")
-    google_api_key: Optional[str] = "AIzaSyBHrciebnphZXCmEbt0NyX7dm4VZgIPx6Y"
+    google_api_key: Optional[str] = "AIzaSyDjSK5YRqHZsxsyJ8qDvNHLyZq0akDQAFk"
     gemini_model: str = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
     temperature: float = float(os.getenv("MODEL_TEMPERATURE", "0.3"))
     top_p: float = float(os.getenv("MODEL_TOP_P", "0.9"))
