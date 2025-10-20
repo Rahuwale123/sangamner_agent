@@ -22,7 +22,7 @@ class Settings:
     temperature: float = float(os.getenv("MODEL_TEMPERATURE", "0.3"))
     top_p: float = float(os.getenv("MODEL_TOP_P", "0.9"))
     search_api_url: Optional[str] = os.getenv(
-        "SEARCH_API_URL", "http://34.93.228.193:8001/data/search/nearby"
+        "SEARCH_API_URL", "https://adlwrqycbh.execute-api.ap-south-1.amazonaws.com/dev/data/search/nearby"
     )
 
 
